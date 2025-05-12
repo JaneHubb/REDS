@@ -208,17 +208,6 @@ class REDS(SequentialRecommender):
             
             return loss
 
-    def predict(self, interaction):
-        item_seq = interaction[self.ITEM_SEQ]
-        test_item = interaction[self.ITEM_ID]
-        output_UI, output_IC, output_UC = self.forward_eval(item_seq)
-        scores_UI = torch.matmul(output_UI, test_items_emb_I(test_item))
-        scores_IC = torch.matmul(output_IC, test_items_emb_C(test_item))  
-        scores_UC = torch.matmul(output_UC, test_items_emb_C(test_item))  
-        scores = scores_UI + (scores_IC + scores_UC)
-
-        return scores
-
     def full_sort_predict(self, interaction):
         item_seq = interaction[self.ITEM_SEQ]
         output_UI, output_IC, output_UC = self.forward_eval(item_seq)
