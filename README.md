@@ -3,7 +3,7 @@ Retrieval-Augmented and Debiased Sequential Recommendation with Heterogeneous It
 
 ## Model Overview
 <p align="center">
-![Image](https://github.com/user-attachments/assets/904794cc-fb7e-4f1b-b8cb-fcf8b4d830d7)"
+<img width="1000" alt="1" src="https://github.com/user-attachments/assets/904794cc-fb7e-4f1b-b8cb-fcf8b4d830d7">
 </p>
  
 ### Environments
