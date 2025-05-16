@@ -1,10 +1,5 @@
 # REDS
 Retrieval-Augmented and Debiased Sequential Recommendation with Heterogeneous Item Embeddings (REDS)
-
-## Model Overview
-<p align="center">
-<img width="1000" alt="1" src="https://i.imgur.com/PcnkkQO.png">
-</p>
  
 ### Environments
 * Python 3.7+
