@@ -12,7 +12,6 @@ Install the required packages:
 
 ### Run the code
 When you first run: ```python run.py```, the script will automatically download the dataset specified in config.yaml.
-
 After the download is complete, run the same command again: ```python run.py``` to start training and inference.
 
 ## Acknowledgment
