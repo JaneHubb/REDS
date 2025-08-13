@@ -11,9 +11,9 @@ Install the required packages:
 ```pip install -r requirements.txt```
 
 ### Run the code
-```python run.py```
-When first executed, the script will automatically download the dataset specified in config.yaml.
-After the download is complete, re-run ```python run.py``` to start training and inference.
+When you first run: ```python run.py```, the script will automatically download the dataset specified in config.yaml.
+
+After the download is complete, run the same command again: ```python run.py``` to start training and inference.
 
 ## Acknowledgment
 This project is based on [SASRec](https://github.com/kang205/SASRec), and [RecBole](https://github.com/RUCAIBox/RecBole). We are grateful for their outstanding contributions.
