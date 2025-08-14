@@ -3,7 +3,6 @@ Retrieval-Augmented and Debiased Sequential Recommendation with Heterogeneous It
  
 ### Environments
 * Python 3.8+
-* PyTorch 1.12+
 * CUDA 11.6+
 
 ### Setup
