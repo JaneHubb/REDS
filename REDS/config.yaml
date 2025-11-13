@@ -1,0 +1,43 @@
+gpu_id: '0'
+log_wandb: False
+
+hidden_size: 64                
+n_layers: 2                   
+n_heads: 2
+dropout_prob: 0.5              
+dropout_attn: 0.1
+loss_type: 'CE'                 
+n_retrieval: 10
+
+# dataset settings
+#dataset: ml-1m
+#MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
+
+#dataset: amazon-sports-outdoors
+dataset: amazon-beauty
+#dataset: amazon-video-games
+MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
+
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+load_col:
+    inter: [user_id, item_id, timestamp]
+
+user_inter_num_interval: "[5,inf)"
+item_inter_num_interval: "[5,inf)"
+
+# training settings
+epochs: 300
+train_batch_size: 4096
+learner: adam
+learning_rate: 0.001
+eval_step: 1
+stopping_step: 10
+train_neg_sample_args: ~
+
+# evalution settings
+metrics: ['Hit', 'NDCG', 'MRR']
+valid_metric: NDCG@10
+eval_batch_size: 4096
+weight_decay: 0.0
+topk: [5,10,20]
