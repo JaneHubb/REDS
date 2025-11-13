@@ -13,7 +13,6 @@ n_retrieval: 10
 #dataset: ml-1m
 #MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
-#dataset: yelp
 #dataset: amazon-sports-outdoors
 dataset: amazon-beauty
 #dataset: amazon-video-games
