@@ -15,7 +15,6 @@ n_retrieval: 10
 
 #dataset: amazon-sports-outdoors
 dataset: amazon-beauty
-#dataset: amazon-video-games
 MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
 
 USER_ID_FIELD: user_id
