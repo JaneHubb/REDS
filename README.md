@@ -1,10 +1,10 @@
-# REDS: Learning Popularity-Aware User Representations for Sequential Recommendation via Retrieval-Augmentation
+# REDS: Learning Popularity-Aware User Representations for Sequential Recommendation via Retrieval-Augmentation (TOIS'26)
 
 [![ACM TOIS 2026](https://img.shields.io/badge/ACM%20TOIS%202026-Accepted-blue.svg)](https://doi.org/10.1145/3858619)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![CUDA 11.6](https://img.shields.io/badge/CUDA-11.6-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
-Official implementation of the **REDS** paper, accepted by **ACM TOIS (2026)**.
+This is the official implementation for the **ACM TOIS 2026** paper: "*Learning Popularity-Aware User Representations for Sequential Recommendation via Retrieval-Augmentation*".
 
 ## 🔍 Overview
 
