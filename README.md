@@ -10,12 +10,13 @@ This is the official implementation of the ACM Transactions on Information Syste
 
 **REDS** is a sequential recommendation framework designed to improve user representations by jointly modeling popularity-aware sequential preferences and collaborative information retrieved from related users. It incorporates frequency information into sequential representations and augments the target user representation with relevant collaborative signals through retrieval-based user modeling.
 
-<!-- Add the overview figure here.
-Example:
 <div align="center">
-  <img src="assets/overview.png" alt="Overview of REDS" width="900">
+  <img src="assets/overview.webp" alt="REDS model overview" width="900">
 </div>
--->
+
+### 📖 Resources
+
+- 📄 [Paper (ACM TOIS)](https://doi.org/10.1145/3858619)
 
 ## 🛠️ Environment Setup
 
