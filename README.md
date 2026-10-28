@@ -75,4 +75,13 @@ We sincerely thank the authors for making their implementations publicly availab
 
 If you find this work helpful, please consider citing our paper.
 
-> The complete BibTeX entry will be updated once the final ACM bibliographic record is available.
+```bibtex
+@article{han2026reds,
+  author  = {Jiyoung Han and Sung Jong Seo and Esther Kang and Seohyeon Yoo and Hyunjoon Kim},
+  title   = {Learning Popularity-Aware User Representations for Sequential Recommendation via Retrieval-Augmentation},
+  journal = {ACM Transactions on Information Systems},
+  year    = {2026},
+  doi     = {10.1145/3858619},
+  url     = {https://doi.org/10.1145/3858619}
+}
+```
